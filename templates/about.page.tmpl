@@ -1,0 +1,12 @@
+{{template "base" .}}
+
+{{define "content"}}
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1>This is the about page</h1>
+                <h2>This came from the template {{index .StringMap "remote_ip"}}</h2>
+            </div>
+        </div>
+    </div>
+{{end}}
